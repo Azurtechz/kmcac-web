@@ -1,0 +1,39 @@
+.layout {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 3rem;
+  padding-bottom: 4.5rem;
+  align-items: start;
+}
+
+.offices {
+  display: grid;
+  gap: 1.1rem;
+  margin-top: 1.5rem;
+}
+
+.office strong {
+  display: block;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.reach {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 1.4rem;
+}
+
+.reach a {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+@media (max-width: 800px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,85 @@
+.footer {
+  background: var(--ink);
+  color: #efeae3;
+  padding: 4.5rem 0 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.name {
+  font-family: var(--font-sans);
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.8rem;
+  color: var(--white);
+}
+
+.legal {
+  margin: 0;
+  max-width: 22rem;
+  color: #c9c2b8;
+}
+
+.heading {
+  margin: 0 0 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.links,
+.offices {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.links a,
+.phone,
+.mail {
+  color: #efeae3;
+  text-decoration: none;
+}
+
+.links a:hover,
+.phone:hover,
+.mail:hover {
+  color: var(--gold);
+}
+
+.office {
+  margin: 0 0 0.85rem;
+}
+
+.office strong {
+  display: block;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.92rem;
+  color: var(--white);
+}
+
+.base {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 252, 248, 0.12);
+  color: #b7b0a6;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 800px) {
+  .grid,
+  .base {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+}
