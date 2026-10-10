@@ -13,14 +13,6 @@ export const studio = {
       label: "Registered office",
       lines: ["1396, Sector 46", "Gurugram, Haryana 122003"],
     },
-    {
-      label: "Sales office",
-      lines: ["560, Sector 46", "Gurugram, Haryana 122003"],
-    },
-    {
-      label: "Delhi sales office",
-      lines: ["D1/50, Vasant Vihar", "Delhi"],
-    },
   ],
 } as const;
 

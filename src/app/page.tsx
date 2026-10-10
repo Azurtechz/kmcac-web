@@ -126,7 +126,7 @@ export default function HomePage() {
           <blockquote className={styles.quote}>“{founderQuote.text}”</blockquote>
           <p>
             {founderQuote.attribution}, founder. The practice is art and interiors under one roof,
-            with Rahul Kumar Jangra, Umesh Dhawan, and Dheeraj Gaur.
+            with Rahul Kumar Jangra.
           </p>
           <div className={ui.actions}>
             <Link className={ui.buttonGhost} href="/studio">
@@ -153,7 +153,7 @@ export default function HomePage() {
         <div className="wrap">
           <p className="eyebrow">Enquire</p>
           <h2>Tell us about the room.</h2>
-          <p>Call {studio.phoneDisplay} or write to {studio.email}. The studios are in Sector 46, Gurugram, and Vasant Vihar, Delhi.</p>
+          <p>Call {studio.phoneDisplay} or write to {studio.email}. The studio is in Sector 46, Gurugram.</p>
           <div className={ui.actions}>
             <Link className={ui.button} href="/contact">
               Contact

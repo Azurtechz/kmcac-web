@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Write or call Kanchan Mehra Centre for Art in Gurugram and Vasant Vihar.",
+  description: "Write or call Kanchan Mehra Centre for Art in Gurugram.",
 };
 
 export default function ContactPage() {

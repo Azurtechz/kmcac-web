@@ -316,24 +316,6 @@ export const people: Person[] = [
       "The work under his watch includes wall art, wall relief, sculpture, and decorative planters.",
     ],
   },
-  {
-    name: "Umesh Dhawan",
-    role: "Business Relationship Manager",
-    photo: "/images/people/umesh-dhawan.jpg",
-    bio: [
-      "Umesh Dhawan looks after relationships and new work. The studio’s page also describes him as handling business development: finding clients, and keeping the conversation going between a brief and the studio.",
-      "He works with the people who make the art so that what is offered stays close to what a client actually needs.",
-    ],
-  },
-  {
-    name: "Dheeraj Gaur",
-    role: "Sales & Marketing Head",
-    photo: "/images/people/dheeraj-gaur.png",
-    bio: [
-      "Dheeraj Gaur leads sales. He is the person who presents the studio’s wall art, relief, sculpture, and planters, and who manages the sales team.",
-      "He works with business development and the makers so that a sale matches what the studio can build.",
-    ],
-  },
 ];
 
 export const founderQuote = {

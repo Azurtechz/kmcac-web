@@ -51,7 +51,7 @@ export function SiteFooter() {
         </div>
         <div className={styles.base}>
           <span>© {studio.year} {studio.legal}</span>
-          <span>Gurugram and Delhi</span>
+          <span>Gurugram</span>
         </div>
       </div>
     </footer>
