@@ -25,7 +25,6 @@ export const metadata: Metadata = {
   },
   description:
     "Kanchan Mehra Centre for Art designs, makes, and installs custom art, and designs residential and commercial interiors from Gurugram.",
-  icons: { icon: "/images/logo.png" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
